@@ -35,8 +35,9 @@ user> (is= :car :vehicle)
 ({:vehicle :car, :car :vehicle})
 user> (is= :two-door :car)
 ({:car :two-door, :two-door :car} {:vehicle :car, :car :vehicle})
-user> (and (e= :car :vehicle)
-	   (e= :car :two-door))
+user> (and 
+       (e= :car :vehicle)
+       (e= :car :two-door))
 true
 ```
 
@@ -69,9 +70,10 @@ user> (let-equal
        [:apple :fruit
 	:fruit :sweet
 	123 321]
-       (and (e= :fruit :apple)
-	    (e= :sweet :fruit)
-	    (e= 321 123)))
+       (and
+        (e= :fruit :apple)
+        (e= :sweet :fruit)
+        (e= 321 123)))
 		   
 true
 ```
