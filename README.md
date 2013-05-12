@@ -1,4 +1,5 @@
 Equate is a fact management library for the Clojure language.
+[![endorse](https://api.coderwall.com/runexec/endorsecount.png)](https://coderwall.com/runexec)
 
 ```clojure
 user> (let-equal 
