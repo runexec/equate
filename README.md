@@ -7,6 +7,7 @@ user> (let-equal
                 (e= "car" "vehicle")))
 Car is a vehicle? true
 nil
+```
 
 #### Install
 
